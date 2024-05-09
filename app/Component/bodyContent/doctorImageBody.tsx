@@ -4,7 +4,7 @@ import doctorImage from '@/public/doctor_iamge/doctor.jpg'
 
 const DoctorImage = () => {
     return (
-        <div className='grid justify-end'> <Image src={doctorImage} alt='MediSoft doctor image' /></div>
+        <div className='grid justify-end'> <Image src={doctorImage} alt='MediSoft doctor image' height={700} /></div>
     )
 }
 

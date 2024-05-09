@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -40,7 +41,10 @@ const config: Config = {
         '3xl': '1.953rem',
         '4xl': '2.441rem',
         '5xl': '3.052rem',
-      }
+      },
+      fontFamily: {
+        'sans': ['"Proxima Nova"', ...defaultTheme.fontFamily.sans],
+      },
     },
 
   },

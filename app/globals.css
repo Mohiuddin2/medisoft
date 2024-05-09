@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @layer text-red-950; /* Replace with your desired color class */
+    color: black; /* Replace with your desired color class */
   }
 }
